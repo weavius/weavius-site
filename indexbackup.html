@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#080a0c">
+  <meta name="description"
+    content="Weavius — Édition d'applications mobiles, développement de logiciels, et prestations de services en programmation informatique. Nous imaginons, concevons et construisons des expériences digitales utiles, singulières et durables.">
+  <title>Weavius — Applications Mobiles, Sites internet, développement de logiciels.</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="assets/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="noise"></div>
+  <div class="progress"></div>
+  <div class="cursor"><span></span></div>
+
+  <header class="nav">
+    <a class="brand" href="#top" aria-label="Weavius — accueil">
+      <img src="assets/logo.png" alt="Weavius" class="brand-logo">
+    </a>
+    <button class="menu-toggle" aria-label="Ouvrir le menu" aria-expanded="false"><i></i><i></i></button>
+    <nav class="nav-center">
+      <a href="#products">Produits</a>
+      <a href="#studio">Studio</a>
+      <a href="#lab">Lab</a>
+      <a href="#vision">Vision</a>
+      <a href="#about">À propos</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="nav-cta magnetic" href="#contact">Parlons-en <b>↗</b></a>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-backdrop"><span></span><i></i><b></b></div>
+      <div class="hero-meta"><span>Édition d'applications mobiles, développement de logiciels, et prestations de
+          services en programmation informatique</span></div>
+
+      <!-- Conteneur global côte à côte -->
+      <div class="hero-content">
+        <div class="hero-title">
+          <h1 class="reveal delay-1">"C"est vrai qu'il y a l'IA<br><em>pour créer,</em><br><strong>mais faut il
+              encore<br><i></i>avoir le temps<br><em>et les compétences</em><br>pour bien le
+              faire"<span></span></strong>
+          </h1>
+        </div>
+
+        <!-- Bloc téléphone (sans badge) -->
+        <div class="hero-featured reveal delay-2">
+          <a class="phone-card hero-phone-card" href="apps/tontinesfrica.html">
+            <div class="phone-mockup">
+              <div class="phone-screen">
+                <div class="phone-notch"></div>
+                <img src="assets/mockups/ecransiteinternettontinesfrica.jpg" alt="Dernière sortie"
+                  class="phone-screen-img">
+              </div>
+            </div>
+            <div class="phone-card-info">
+              <p>Sortie Iminente.</p>
+              <h3>"Tontines Frica"</h3>           
+            </div>
+          </a>
+
+          <!-- Texte détaillé en dessous -->
+          <p class="hero-featured-desc">
+            Une solution moderne pour faciliter les tontines, dynamiser l'économie collaborative et simplifier les
+            échanges au quotidien.
+          </p>
+        </div>
+      </div>
+
+      <div class="hero-bottom reveal delay-2">
+        <p><br></p>
+        <a class="circle-link magnetic" href="#products"><span>Découvrir<br>nos produits</span><b>↓</b></a>
+      </div>
+    </section>
+
+    <div class="ticker">
+      <div>IDÉES <i>✳</i> PRODUITS <i>✳</i> EXPÉRIENCES <i>✳</i> TECHNOLOGIE <i>✳</i> HUMAIN <i>✳</i> IDÉES <i>✳</i>
+        PRODUITS <i>✳</i> EXPÉRIENCES <i>✳</i> TECHNOLOGIE <i>✳</i></div>
+    </div>
+
+    <!-- Section Manifeste (fond clair) -->
+    <section class="manifesto section section-light">
+      <div class="section-label"><span>01</span><span>MANIFESTE</span></div>
+      <div class="manifesto-layout">
+        <div class="manifesto-copy">
+          <p class="huge reveal">La technologie doit sembler <span>évidente.</span><br>Utile. Humaine.</p>
+          <p class="body-copy reveal delay-1">Weavius est un studio indépendant qui crée des produits numériques à
+            l'intersection de la technologie, du design et du quotidien. Nous ne cherchons pas à faire du bruit. Nous
+            cherchons l'idée qui mérite d'exister — puis nous la rendons naturelle.</p>
+        </div>
+        <div class="manifesto-art">
+          <div class="art-grid"></div>
+          <div class="art-light"></div><span>UNE IDÉE<br>PEUT TOUT<br>CHANGER.</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Produits en Slider Horizontal -->
+    <section id="products" class="section products" style="background-color: #121417;">
+      <div class="section-label">
+        <span>02</span>
+        <span>NOS PRODUITS</span>
+        <div class="slider-controls">
+          <span>DÉFILEMENT AUTOMATIQUE ⟵</span>
+        </div>
+      </div>
+
+      <div class="products-slider-wrapper">
+        <div class="products-slider">
+
+          <!-- Carte 1 -->
+          <a class="phone-card" href="apps/trocoeurs.html">
+            <div class="phone-mockup">
+              <div class="phone-screen">
+                <div class="phone-notch"></div>
+                <img src="assets/mockups/ecransiteinternettontinesfrica.jpg" alt="Interface TenWords"
+                  class="phone-screen-img">
+              </div>
+            </div>
+            <div class="phone-card-info">
+              <span class="app-tag">ÉCHANGE & TROC</span>
+              <h3>Trocoeurs</h3>
+              <p>Plateforme collaborative d'échange de biens et services.</p>
+              <b class="arrow-link">Sortie iminente ↗</b>
+            </div>
+          </a>
+
+          <!-- Carte 2 -->
+          <a class="phone-card" href="apps/tenwords.html">
+            <div class="phone-mockup">
+              <div class="phone-screen">
+                <div class="phone-notch"></div>
+                <img src="assets/mockups/ecransiteinternettenwords.jpg" alt="Interface TenWords"
+                  class="phone-screen-img">
+              </div>
+            </div>
+            <div class="phone-card-info">
+              <span class="app-tag">RENCONTRES</span>
+              <h3>TenWords</h3>
+              <p>10 mots. Une connexion. Une autre façon de se trouver.</p>
+              <b class="arrow-link">Finalisation en cours ↗</b>
+            </div>
+          </a>
+
+          <!-- Carte 3 -->
+          <a class="phone-card" href="apps/novaia.html">
+            <div class="phone-mockup">
+              <div class="phone-screen">
+                <div class="phone-notch"></div>
+                <img src="assets/mockups/ecransiteinternetnovaia.jpg" alt="Interface TenWords" class="phone-screen-img">
+              </div>
+            </div>
+            <div class="phone-card-info">
+              <span class="app-tag">SANTÉ & IA</span>
+              <h3>Novaia</h3>
+              <p>Rendre l'information de santé plus claire et humaine.</p>
+              <b class="arrow-link">Finalisation en cours↗</b>
+            </div>
+          </a>
+
+          <!-- Carte 4 -->
+          <a class="phone-card" href="apps/materre.html">
+            <div class="phone-mockup">
+              <div class="phone-screen">
+                <div class="phone-notch"></div>
+                <img src="assets/mockups/ecransiteinternettenwords.jpg" alt="Interface TenWords"
+                  class="phone-screen-img">
+              </div>
+            </div>
+            <div class="phone-card-info">
+              <span class="app-tag">IMMOBILIER & TERRAIN</span>
+              <h3>MaTerre</h3>
+              <p>Sécurisez et gérez vos propriétés foncières en toute simplicité.</p>
+              <b class="arrow-link">Finalisation en cours ↗</b>
+            </div>
+          </a>
+
+          <!-- Carte 5 -->
+          <a class="phone-card" href="apps/talaf.html">
+            <div class="phone-mockup">
+              <div class="phone-screen">
+                <div class="phone-notch"></div>
+                <img src="assets/mockups/ecransiteinternettenwords.jpg" alt="Interface TenWords"
+                  class="phone-screen-img">
+              </div>
+            </div>
+            <div class="phone-card-info">
+              <span class="app-tag">LOGISTIQUE</span>
+              <h3>Talaf</h3>
+              <p>La solution intelligente pour le suivi et la livraison de colis.</p>
+              <b class="arrow-link">Finalisation en cours ↗</b>
+            </div>
+          </a>
+
+          <!-- Carte 6 -->
+          <a class="phone-card" href="apps/tontinesafrica.html">
+            <div class="phone-mockup">
+              <div class="phone-screen">
+                <div class="phone-notch"></div>
+                <img src="assets/mockups/ecransiteinternettenwords.jpg" alt="Interface TenWords"
+                  class="phone-screen-img">
+              </div>
+            </div>
+            <div class="phone-card-info">
+              <span class="app-tag">FINANCE COMMUNAUTAIRE</span>
+              <h3>TontinesAfrica</h3>
+              <p>Digitalisez et sécurisez vos épargnes collectives.</p>
+              <b class="arrow-link">Finalisation en cours ↗</b>
+            </div>
+          </a>
+
+          <!-- Carte 7 -->
+          <a class="phone-card" href="apps/localize.me.html">
+            <div class="phone-mockup">
+              <div class="phone-screen">
+                <div class="phone-notch"></div>
+                <img src="assets/mockups/ecransiteinternettenwords.jpg" alt="Interface TenWords"
+                  class="phone-screen-img">
+              </div>
+            </div>
+            <div class="phone-card-info">
+              <span class="app-tag">GÉOLOCALISATION</span>
+              <h3>LocalizeMe</h3>
+              <p>Retrouvez vos adresses et points d'intérêt en un instant.</p>
+              <b class="arrow-link">Finalisation en cours ↗</b>
+            </div>
+          </a>
+
+          <!-- Carte 8 -->
+          <a class="phone-card" href="apps/wizia.html">
+            <div class="phone-mockup">
+              <div class="phone-screen">
+                <div class="phone-notch"></div>
+                <img src="assets/mockups/ecransiteinternettenwords.jpg" alt="Interface TenWords"
+                  class="phone-screen-img">
+              </div>
+            </div>
+            <div class="phone-card-info">
+              <span class="app-tag">PRODUCTIVITÉ</span>
+              <h3>Wizia</h3>
+              <p>L'assistant intelligent qui automatise vos tâches quotidiennes.</p>
+              <b class="arrow-link">Finalisation en cours ↗</b>
+            </div>
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Studio (fond clair) -->
+    <section id="studio" class="section studio section-light">
+      <div class="section-label"><span>03</span><span>NOTRE MÉTHODE</span></div>
+      <div class="studio-intro">
+        <h2 class="reveal">Moins de bruit.<br><span>Plus d'intention.</span></h2>
+        <p class="reveal delay-1">Chaque produit commence par une question simple : est-ce que cela améliore réellement
+          quelque chose ?</p>
+      </div>
+      <div class="steps">
+        <article class="step reveal"><small>01</small>
+          <h3>Observer</h3>
+          <p>Comprendre les usages, les frustrations et les espaces encore mal servis.</p><span>RECHERCHE /
+            STRATÉGIE</span>
+        </article>
+        <article class="step reveal delay-1"><small>02</small>
+          <h3>Concevoir</h3>
+          <p>Transformer une fonction en expérience claire, mémorable et agréable.</p><span>UX / INTERFACE /
+            IDENTITÉ</span>
+        </article>
+        <article class="step reveal delay-2"><small>03</small>
+          <h3>Construire</h3>
+          <p>Construire simplement, tester vite et garder ce qui crée vraiment de la valeur.</p><span>PRODUIT /
+            DÉVELOPPEMENT</span>
+        </article>
+      </div>
+    </section>
+
+    <section id="lab" class="section lab">
+      <div class="section-label"><span>04</span><span>WEAVIUS LAB</span></div>
+      <div class="lab-head">
+        <h2 class="reveal">Toutes les idées<br>ne méritent pas<br>un lancement.</h2>
+        <p class="reveal delay-1">Le Lab est notre terrain d'essai : concepts, prototypes et recherches. Certaines idées
+          deviendront des produits. D'autres resteront des expériences.</p>
+      </div>
+      <div class="lab-list">
+        <article class="lab-item reveal"><span>01</span>
+          <div><small>CONCEPT / VILLE</small>
+            <h3>Before</h3>
+            <p>Une interface qui transforme l'attente en temps utile.</p>
+          </div><b>↗</b>
+        </article>
+        <article class="lab-item reveal delay-1"><span>02</span>
+          <div><small>EXPÉRIENCE / INTELLIGENCE ARTIFICIELLE</small>
+            <h3>Fixai</h3>
+            <p>Réparer, comprendre, décider — sans jargon.</p>
+          </div><b>↗</b>
+        </article>
+        <article class="lab-item reveal delay-2"><span>03</span>
+          <div><small>RECHERCHE / FINANCES</small>
+            <h3>Receipt</h3>
+            <p>Une lecture plus intelligente de ce que l'on dépense.</p>
+          </div><b>↗</b>
+        </article>
+      </div>
+    </section>
+
+    <section id="vision" class="vision section">
+      <div class="section-label"><span>05</span><span>VISION</span></div>
+      <div class="vision-word reveal">DE<br><span>MEILLEURES<br>CHOSES.</span></div>
+      <div class="vision-bottom">
+        <p>Le futur n'a pas besoin de plus d'applications.<br>Il a besoin de meilleures applications.</p><span>WEAVIUS /
+          2026</span>
+      </div>
+    </section>
+
+    <!-- Section À propos (fond clair) -->
+    <section id="about" class="about section section-light">
+      <div class="section-label"><span>06</span><span>À PROPOS</span></div>
+      <div class="about-grid">
+        <h2 class="reveal">Indépendant.<br>Curieux.<br><span>Sur le long terme.</span></h2>
+        <div class="about-copy reveal delay-1">
+          <p>Weavius imagine des produits numériques avec une ambition simple : créer des choses que les gens
+            comprennent rapidement et ont envie de garder.</p>
+          <p>Nous travaillons de l'idée au produit — stratégie, identité, expérience et technologie — avec une attention
+            particulière portée aux détails qui rendent un outil vraiment vivant.</p>
+          <div class="facts"><span>01 — PRODUIT</span><span>02 — DESIGN</span><span>03 — TECHNOLOGIE</span></div>
+        </div>
+        <div class="about-mark">W<span>/</span>V</div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact section">
+      <div class="section-label"><span>07</span><span>CONTACT</span></div>
+      <div class="contact-inner">
+        <p>UNE IDÉE ?</p><a href="mailto:weavius.info@gmail.com">ÉCRIVONS
+          LA<br><em>PROCHAINE APPLI.</em><b>↗</b></a><small>weavius.info@gmail.com — à remplacer avant
+          publication</small>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <a class="brand footer-brand" href="#top">
+      <img src="assets/logolong.png" alt="Weavius" class="brand-logo">
+    </a>
+    <div>Édition d'applications mobiles, développement de logiciels, et prestations de services en programmation informatique.</div>
+    <div>Paris / Abidjan</div>
+    <div>Contact : informations@weavius.com</div>
+    <div>© <span id="year"></span> Weavius, Tous droits réservés.</div>  
+    <div class="socials"><span>IG</span><span>IN</span><span>X</span></div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
